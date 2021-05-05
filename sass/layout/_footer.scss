@@ -1,6 +1,6 @@
 .footer {
     background-color: darken($color-gray--dark, 70%);
-    color: white;
+    color: red;
     &__title {
         margin: $title-margin;
     }
@@ -10,6 +10,7 @@
     }
     &__nav {
         list-style-type: none;
+        padding: 2 rem;         
     }
     &__option {
         line-height: 2.5rem;
