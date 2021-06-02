@@ -4,21 +4,21 @@
         margin: $title-margin;
     }
     &__logo {
-        height: 2rem;
+        height: 2 rem;
         filter: invert(93%) sepia(100%) saturate(0%) hue-rotate(248deg) brightness(106%) contrast(106%);
     }
     &__nav {
         list-style-type: none;
-        padding: 2rem;         
+        padding: 2 rem;         
     }
     &__option {
-        line-height: 2.5rem;
+        line-height: 2.5 rem;
         &--bold{
             font-weight: 500;
         }
         &-icon{
             width: 10px;
-            margin-right: 2rem;
+            margin-right: 2 rem;
         }
     }
     &__text-color {
