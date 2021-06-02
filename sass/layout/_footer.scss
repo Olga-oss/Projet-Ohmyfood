@@ -9,7 +9,7 @@
     }
     &__nav {
         list-style-type: none;
-        padding: 2 rem;         
+        padding: 2rem;         
     }
     &__option {
         line-height: 2.5rem;
@@ -20,5 +20,8 @@
             width: 10px;
             margin-right: 2rem;
         }
+    }
+    &__text-color {
+        color:$color-white;
     }
 }
