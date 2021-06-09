@@ -37,11 +37,9 @@
             cursor: pointer;
             transition: all 500ms;
             -webkit-transition: all 500ms;
-            background-clip: text;
             &:hover {
                 -webkit-text-stroke: 1px transparent;
                 background: linear-gradient(to bottom right, $color-secondary, $color-primary);
-                background-clip: text;
                 -webkit-background-clip: text;
                 color: transparent;
             }
